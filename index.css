@@ -1,0 +1,106 @@
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.container > h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+.box {
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 1200px;
+    border: 0.1px solid rgb(10, 10, 10);
+    box-sizing: border-box;
+}
+img {
+    width: 310px;
+    height: 270px;
+    overflow: hidden;
+    padding: 13px;
+}
+img:hover{
+    transform: scale(1.1,1.1);
+    border-radius: 5px;
+    filter: brightness(30%);
+    cursor: pointer;
+}
+#foot {
+    position: fixed;
+    bottom: -835px;
+    height: 90px;
+    font-weight: bold;
+    left:0;
+    right: 0;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    position: absolute;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    color: whitesmoke;
+    padding: 10px;
+}
+@media screen and (max-width:768px) {
+    body {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .box {
+        max-width: 768px;
+        margin: 0 auto;
+        height: 1775px;
+        border: 0.1px solid rgb(10, 10, 10);
+        box-sizing: border-box;
+    }
+    img {
+        width: 352px;
+        height: 264px;
+        overflow: hidden;
+        padding: 13px;
+    }
+    img:hover{
+        transform: scale(1.1,1.1);
+        border-radius: 5px;
+        filter: brightness(30%);
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:320px) {
+    body {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .container > h2 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 36px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .box {
+        max-width: 320px;
+        margin: 0 auto;
+        height: 3411px;
+        border: 0.1px solid rgb(10, 10, 10);
+        box-sizing: border-box;
+    }
+    img {
+        width: 292px;
+        height: 253px;
+        overflow: hidden;
+        padding: 13px;
+    }
+    img:hover{
+        transform: scale(1.1,1.1);
+        border-radius: 5px;
+        filter: brightness(30%);
+        cursor: pointer;
+    }
+    #foot {
+        bottom: -2433px;
+    }
+}
